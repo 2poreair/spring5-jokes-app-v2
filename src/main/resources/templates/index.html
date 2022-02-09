@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<!-- in order to use thymeleaf you must declare it in the html tag assigning it to the th variable-->
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuck Norris Joke Randomizer</title>
+</head>
+<body>
+    <h1>Chuck Norris Joke:</h1>
+    <p th:text="${joke}">Show Joke here...</p>
+</body>
+</html>
